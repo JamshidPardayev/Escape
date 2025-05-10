@@ -1,0 +1,30 @@
+.categoriesNav{
+    min-height: 65px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 15px;
+}
+.categoriesNav li{
+    color: #768088;
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.categoriesNav li:hover{
+    cursor: pointer;
+    color: #202020;
+    transition: .3s;
+
+}
+@media (max-width: 768px) {
+    .categoriesNav{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,156 @@
+
+.about{
+    background-color: #F7F7F7;
+}
+.aboutPosts{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 15px;
+}
+.aboutPosts h2{
+    font-family: Oxygen;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    letter-spacing: 2px;
+
+}
+.about .vectorImg{
+    margin: 20px auto;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.postImg{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.postLeft{
+    position: relative;
+    max-width: 460px;
+    min-height: 280px;
+}
+.postRight{
+    position: relative;
+    max-width: 460px;
+    min-height: 280px;
+}
+.postImages{
+    width: 100%;
+    min-height: 280px;
+}
+.postTitle{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFFFFFB2;
+    padding: 20px;
+}
+.postTitle h3{
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 27px;
+    color: white;
+    margin-bottom: 6px;
+}
+.postTitleName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    max-width: 420px;
+}
+.postTitleName span{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+/* ================================== RECENT START ================================== */
+/* ================================== RECENT START ================================== */
+.aboutRecent{
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 15px;
+}
+.aboutRecent h2{
+    font-family: Oxygen;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.recentCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+.recentCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 296px;
+    min-height: 290px;
+    background-color: white;
+    margin: 0 auto;
+}
+.recentCardImg{
+    width: 100%;
+    height: 150px;
+}
+.recentCard h3{
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    color: #101315;
+    padding: 14px;
+}
+.recentCard p{
+    font-family: Oxygen;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #7A7A7A;
+    padding: 0px 14px;
+
+}
+.recentTitleName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 14px;
+    border-top: 1px solid#EFEFEF;
+}
+.recentTitleName span{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+/* ================================== RESPONSIVE START ================================== */
+/* ================================== RESPONSIVE START ================================== */
+
+@media (max-width: 768px) {
+    .postImg{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .recentCards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 640px) {
+    .recentCards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
