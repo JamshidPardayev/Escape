@@ -42,7 +42,9 @@ const About = () => {
         <img src="./image/vector.png" alt="vector" className="vectorImg" />
         <div className="recentCards">
             <div className="recentCard">
-                <img src="./image/recent1.png" alt="recentImg" className="recentCardImg"/>
+                <div className="recentImgSection">
+                  <img src="./image/recent1.png" alt="recentImg" className="recentCardImg"/>
+                </div>
                 <h3>Still Standing Tall</h3>
                 <p>Life begins at the end of your comfort zone.</p>
                 <div className="recentTitleName">
@@ -55,7 +57,9 @@ const About = () => {
             </div>
 
             <div className="recentCard">
-                <img src="./image/recent2.png" alt="recentImg" className="recentCardImg"/>
+                <div className="recentImgSection">
+                  <img src="./image/recent2.png" alt="recentImg" className="recentCardImg"/>
+                </div>
                 <h3>Sunny Side Up</h3>
                 <p>No place is ever as bad as they tell you it’s going to be.</p>
                 <div className="recentTitleName">
@@ -68,7 +72,9 @@ const About = () => {
             </div>
 
             <div className="recentCard">
-                <img src="./image/recent3.png" alt="recentImg" className="recentCardImg"/>
+                <div className="recentImgSection">
+                  <img src="./image/recent3.png" alt="recentImg" className="recentCardImg"/>
+                </div>
                 <h3>Water Falls</h3>
                 <p>We travel not to escape life, but for life not to escape us.</p>
                 <div className="recentTitleName">
@@ -81,7 +87,9 @@ const About = () => {
             </div>
 
             <div className="recentCard">
-                <img src="./image/recent4.png" alt="recentImg" className="recentCardImg"/>
+                <div className="recentImgSection">
+                  <img src="./image/recent4.png" alt="recentImg" className="recentCardImg"/>
+                </div>
                 <h3>Through the Mist</h3>
                 <p>Travel makes you see what a tiny place you occupy in the world.</p>
                 <div className="recentTitleName">
@@ -94,7 +102,9 @@ const About = () => {
             </div>
 
             <div className="recentCard">
-                <img src="./image/recent5.png" alt="recentImg" className="recentCardImg"/>
+                <div className="recentImgSection">
+                  <img src="./image/recent5.png" alt="recentImg" className="recentCardImg"/>
+                </div>
                 <h3>Awaken Early</h3>
                 <p>Not all those who wander are lost.</p>
                 <div className="recentTitleName">
@@ -107,7 +117,9 @@ const About = () => {
             </div>
 
             <div className="recentCard">
-                <img src="./image/recent6.png" alt="recentImg" className="recentCardImg"/>
+                <div className="recentImgSection">
+                  <img src="./image/recent6.png" alt="recentImg" className="recentCardImg"/>
+                </div>
                 <h3>Try it Always</h3>
                 <p>The world is a book, and those who do not travel read only one page.</p>
                 <div className="recentTitleName">

@@ -32,15 +32,24 @@
     position: relative;
     max-width: 460px;
     min-height: 280px;
+    overflow: hidden;
+
 }
 .postRight{
     position: relative;
     max-width: 460px;
     min-height: 280px;
+    transform: scale(100%);
+    overflow: hidden;
 }
 .postImages{
     width: 100%;
     min-height: 280px;
+}
+.postImages:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    transition: .5s;
 }
 .postTitle{
     position: absolute;
@@ -102,6 +111,15 @@
 .recentCardImg{
     width: 100%;
     height: 150px;
+}
+.recentImgSection{
+    max-width: 296px;
+    height: 150px;
+    overflow: hidden;
+}
+.recentCardImg:hover{
+    transform: scale(105%);
+    transition: .5s;
 }
 .recentCard h3{
     font-family: Lora;
